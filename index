@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Село Залом – Закарпатська область</title>
+<style>
+:root{ --card:#ffffff; --accent:#2563eb; --muted:#374151; }
+body{ 
+  font-family:Inter, system-ui, -apple-system,Segoe UI, Roboto, "Helvetica Neue", Arial; 
+  margin:0; 
+  background:linear-gradient(to bottom, #f3f4f6, #d1d5db); 
+  color:#111827; 
+  scroll-behavior:smooth;
+}
+.container{ max-width:1000px; margin:48px auto; padding:24px; }
+header{ display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+h1{ margin:0; font-size:1.8rem; color:#111827; }
+nav a{ 
+  margin-left:12px; 
+  text-decoration:none; 
+  color:#111827; 
+  font-weight:600; 
+  padding:6px 10px; 
+  border-radius:6px; 
+  transition:0.3s;
+}
+nav a:hover{ background:rgba(0,0,0,0.1); }
+.card{ background:var(--card); border-radius:12px; padding:18px; box-shadow:0 6px 18px rgba(16,24,40,0.1); }
+footer{ margin-top:28px; text-align:center; color:#374151; font-size:0.9rem }
+img{ width:50%; border-radius:10px; margin-top:10px; transition:transform 0.3s; }
+img:hover{ transform:scale(1.02); }
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>Село Залом</h1>
+<nav>
+<a href="#welcome">Головна</a>
+<a href="#history">Історія</a>
+<a href="#culture">Культура</a>
+<a href="#nature">Природа</a>
+</nav>
+</header>
+
+<main style="margin-top:18px">
+
+<section class="card" id="welcome">
+<h2>Ласкаво просимо!</h2>
+<p style="color:var(--muted)">
+Залом — мальовниче село у Закарпатській області України, яке належить до Хустського району. 
+Населений пункт відомий своєю спокійною атмосферою, гарними краєвидами та гостинністю мешканців. 
+Це місце де поєднуються традиції, природа та сучасність.
+</p>
+<a href="C:\Users\PC RYZEN\Pictures\Вид на Залом.jpg" target="_blank">
+  <img src="C:\Users\PC RYZEN\Pictures\Вид на Залом.jpg" alt="Вид на село Залом" />
+</a>
+</section>
+
+<section class="card" style="margin-top:18px" id="history">
+<h3>Історія</h3>
+<p style="color:var(--muted)">
+Село має давнє коріння. За переказами, поселення виникло ще в середньовіччі, коли перші жителі почали освоювати навколишні землі. 
+Назва «Залом» може бути пов’язана з природними особливостями — гірськими переломами та вигинами рельєфу. 
+Упродовж століть село перебувало у складі різних держав, що залишило свій слід у культурі та побуті.
+</p>
+<a href="C:\Users\PC RYZEN\Pictures\Старі будівлі Залом.jpg" target="_blank">
+  <img src="C:\Users\PC RYZEN\Pictures\Старі будівлі Залом.jpg" alt="Старі будівлі села Залом" />
+</a>
+</section>
+
+<section class="card" style="margin-top:18px" id="culture">
+<h3>Культура і традиції</h3>
+<p style="color:var(--muted)">
+Залом — це осередок закарпатських традицій. У селі святкують народні та релігійні свята з піснями, танцями та традиційними стравами. 
+На великі свята жителі одягають вишиванки, а також зберігають звичай колядування та щедрування.
+</p>
+<a href="C:\Users\PC RYZEN\Pictures\Паска Залом.jpeg" target="_blank">
+  <img src="C:\Users\PC RYZEN\Pictures\Паска Залом.jpeg" alt="Паска у Заломі" />
+</a>
+<a href="C:\Users\PC RYZEN\Pictures\Колядки Залом.jpg" target="_blank">
+  <img src="C:\Users\PC RYZEN\Pictures\Колядки Залом.jpg" alt="Колядки у Заломі" />
+ </a>
+</section>
+
+<section class="card" style="margin-top:18px" id="nature">
+<h3>Природа</h3>
+<p style="color:var(--muted)">
+Село розташоване серед пагорбів та зелених луків. У теплу пору року місця вкриваються квітами, а взимку — снігом, створюючи мальовничі пейзажі. 
+Поруч є ліси з дуба, бука та граба, а також невеликі потічки, що надають селу особливого затишку.
+</p>
+<a href="C:\Users\PC RYZEN\Pictures\Природа Залом.jpg" target="_blank">
+  <img src="C:\Users\PC RYZEN\Pictures\Природа Залом.jpg" alt="Природа біля Залому" />
+</a>
+<a href="C:\Users\PC RYZEN\Pictures\Природа Залом 2.jpg" target="_blank">
+  <img src="C:\Users\PC RYZEN\Pictures\Природа Залом 2.jpg" alt="Природа біля Залому" />
+  </a>
+</section>
+</main>
+<footer>
+<small>Сторінка згенерована: <span id="now"></span></small>
+</footer>
+</div>
+
+<script>
+document.getElementById('now').textContent = new Date().toLocaleString();
+</script>
+</body>
+</html>
